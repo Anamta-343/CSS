@@ -1,0 +1,93 @@
+/* TEXT ALIGNMENT */
+#one{
+    text-align: right;
+    text-align: left;
+    text-align: start;
+    text-align: end;
+    text-align: center;
+}
+#heading{
+    text-align:right;
+    text-align:center;
+}
+
+/* TEXT DECORATION */
+a{
+    text-decoration: none;
+}
+#heading{
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: blue solid underline;
+    text-decoration: red wavy underline ;
+    text-decoration: green dashed underline;
+    text-decoration: yellow dotted underline;
+    text-decoration: silver double underline;
+}
+
+/* FONT WEIGHT */
+
+#heading1{
+    font-weight:lighter;
+}
+#heading2{
+    font-weight:normal;
+}
+#heading3{
+    font-weight:bold;
+}
+#heading4{
+    font-weight:bolder;
+}
+
+#heading1{
+    font-weight:100;
+}
+#heading2{
+    font-weight:250;
+}
+#heading3{
+    font-weight:600;
+}
+#heading4{
+    font-weight:900;
+}
+
+/* FONT FAMILY */
+
+#one{
+    font-family:arial;
+}
+#two{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* FONT SIZE */
+#first{
+    font-size: 25px;
+}
+#second{
+    font-size: 16px;
+}
+#third{
+    font-size: 10px;
+}
+
+/* LINE HEIGHT */
+
+#para{
+    font-size: 25px;
+    line-height: 2px;
+    line-height:50px;
+    line-height: normal;
+}
+
+/* TEXT TRANSFORM */
+
+#para{
+    text-transform: none;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
