@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color:white;
+}
+#navbar{
+    height:60px;
+    background-color: black;
+   
+}
+#amazon{
+    font-size: 25px;
+    margin-right: 200px;
+    color:orange;
+    text-decoration: none;
+}
+#account{
+    text-decoration: none;
+    margin-right: 200px;
+    color:white;
+}
+#cart{
+    text-decoration: none;
+    margin-right: 200px;
+    color:white;
+}
+
+#contact{
+    text-decoration: none;
+    margin-right: 200px;
+    color:white
+}
+#input{
+    margin-right: 200px;
+    color:black
+}
+button{
+    background-color: #f08804;
+    color:white;
+}
+
+
+
+
+#first{
+    background-color: green;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+
+
+#traffic{
+    background-color: black;
+    height:150px;
+    width:60px;
+}
+#green{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: green;
+
+}
+#red{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: red;
+}
+#yellow{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
