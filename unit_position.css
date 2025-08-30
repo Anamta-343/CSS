@@ -1,0 +1,66 @@
+/* RELATIVE UNITS */
+#box1{
+    height: 100px;
+    width:200px;
+    background-color: green;
+    font-size:10px;
+}
+#box2{
+    /* height: 50px; */
+    /* width:30%; */
+    background-color: yellow;
+    margin-left:10%;
+    font-size:2em;
+    /* 2 times the font size of parent*/
+    width:5em;
+    /* 5 times the font size of element itself */
+    width:5rem;
+    /* 5* size of the root size */
+    height:100vh;
+    /* 100% of browser height */
+    width:50vw;
+     /* 50% of browser width*/  
+}
+
+/* POSITION */
+div{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    display:inline-block;
+
+}
+
+#b1{
+    position:static;
+    background-color:red ;
+}
+
+#b2{
+    position: relative;
+    background-color:green;
+    top:20px;
+    left:20px;
+    z-index:1;
+}
+
+#b3{
+    position: absolute;
+    top:500px;
+    left:20px;
+}
+
+#b4{
+    background-color:pink;
+    position:fixed;
+    top:50px;
+    z-index: -3;
+}
+
+/* #b3{
+    position:sticky;
+    top:0px;
+    left:20px;
+} */
+

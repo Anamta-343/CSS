@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display:inline-block;
+}
+ 
+/* BACKGROUND IMAGE */
+
+body{
+    background-image: url("cat_image.jpg");
+    background-size: cover;
+}
+/* BACKGROUND SIZE(most used is cover) */
+#box1{
+    background-image: url("cat_image.jpg");
+    background-size: cover;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-image: auto;
+}
